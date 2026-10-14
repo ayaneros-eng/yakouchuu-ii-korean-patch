@@ -14,5 +14,9 @@
     "private handoff archive",
     "emulator binaries"
   ],
-  "git_identity": "GitHub noreply author and committer; verified after publication"
+  "git_identity": "GitHub noreply author and committer; verified after publication",
+  "public_screenshot_count": 5,
+  "screenshot_metadata_fields": 0,
+  "screenshot_pixels_unchanged": true,
+  "screenshot_visual_privacy_review": true
 }

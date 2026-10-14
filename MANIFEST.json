@@ -8,16 +8,16 @@
     "sha256": "434b1a39155b65f2573cb55181f12a9a81bcf1e5570d545b30252ec7942c5c63"
   },
   "PRIVACY_AUDIT.json": {
-    "size": 495,
-    "sha256": "51ddf82bd27ced7bbabe8f46799c9ecd15258b03d8d3d33033a1406f05eb8eea"
+    "size": 645,
+    "sha256": "e3d288d6b672f4b7d6bce567d6e2022416e509ad9b33ce224afd843d20a68eaf"
   },
   "QA_REPORT.md": {
     "size": 2058,
     "sha256": "2d90787e48d8ce117a416acfcce6503faa0335c79205590d59f5f48d86dd27c5"
   },
   "README.md": {
-    "size": 2645,
-    "sha256": "5607bb359fdeefc29435324c6c29765a947b78438a7576cafd88c62be57d6196"
+    "size": 3162,
+    "sha256": "ca9ba582d904da0a22fc01c9989f708a90c03785d205387540753438a84f544b"
   },
   "release_manifest.json": {
     "size": 486,
@@ -27,6 +27,10 @@
     "size": 920,
     "sha256": "0556c630b0483c1054cfb81d78cd35a5d1a2bc814c56ec6bfc0fc183523ab6e5"
   },
+  "reproduce/.gitkeep": {
+    "size": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
   "reproduce/apply_verified_patch.py": {
     "size": 1122,
     "sha256": "ada1ab177e69c0deb8c18e0656472cf9140dc9e8c261866364f45dbca18364a9"
@@ -34,6 +38,30 @@
   "reproduce/bps_codec.py": {
     "size": 8333,
     "sha256": "09e5ec31fb7b34cbd476781fbcea29c42924f153a3a8eae63f64aff754fb16fc"
+  },
+  "screenshots/01-name-input.png": {
+    "size": 386089,
+    "sha256": "a8d2120108f7df828902252557a60ef68557c6d2213a18448825f5445adb45ae"
+  },
+  "screenshots/02-story.png": {
+    "size": 372733,
+    "sha256": "2dddc57d238b30e3a8b22e24ff2b94bacc6c670847761c1af6a39200cefcec2c"
+  },
+  "screenshots/03-three-choices.png": {
+    "size": 374334,
+    "sha256": "8592b483abe4970de27e8c0a5e935271a98353e2b8fb9bd5d4ab02f74d0dcc6d"
+  },
+  "screenshots/04-four-choices.png": {
+    "size": 307016,
+    "sha256": "42fb45fe66fdb2489584f7aeddd6fb7d842c35e779cfb12042a627e694e13602"
+  },
+  "screenshots/05-save-menu.png": {
+    "size": 413619,
+    "sha256": "bab025dbd2a80da060324bbb7dd9968746f6b31b7f23fbdf38026b404e4fb9e8"
+  },
+  "screenshots/README.md": {
+    "size": 233,
+    "sha256": "e19bdae944484cb92d120bb3571ab92d382889d7ca2cad2b6ddbc8078835b9cf"
   },
   "Yakouchuu_II_KO_v1.2.bps": {
     "size": 1065933,

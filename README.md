@@ -47,3 +47,28 @@ python -X utf8 -B reproduce/apply_verified_patch.py ORIGINAL.z64 --output Yakouc
 배포 파일의 개인정보·메타데이터 검사 결과는 [PRIVACY_AUDIT.json](PRIVACY_AUDIT.json)에 있습니다.
 
 게임의 권리는 원저작권자에게 있습니다. 이 패치는 비공식 팬 번역입니다.
+
+## 한글패치 적용 화면
+
+최종 v1.2를 에뮬레이터에서 실행해 캡처한 화면입니다.
+
+### 1. 한글 이름 입력
+
+![한글 이름 입력](screenshots/01-name-input.png)
+
+### 2. 한글 본문
+
+![한글 본문](screenshots/02-story.png)
+
+### 3. 3지선다 선택지
+
+![3지선다 선택지](screenshots/03-three-choices.png)
+
+### 4. 4지선다 선택지
+
+![4지선다 선택지](screenshots/04-four-choices.png)
+
+### 5. 한글 저장 메뉴
+
+![한글 저장 메뉴](screenshots/05-save-menu.png)
+
