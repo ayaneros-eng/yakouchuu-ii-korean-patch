@@ -1,0 +1,12 @@
+{
+  "version": "1.2",
+  "source_size": 33554432,
+  "source_sha256": "c6a52c2377f3d6236ba2d29557461b9af106d99afeba2156e21e2477b00ddffd",
+  "target_size": 67108864,
+  "target_sha256": "2109f2fdd80e31d6e894b2d64fc4bb748eb73b7ef311a64b28d66025b9263fa1",
+  "patch_size": 1065933,
+  "patch_sha256": "234bab519a16a7eff64a35ba0bbca9ff30ae01a50d77f9fd92d50e57c6f9d860",
+  "patch_file": "Yakouchuu_II_KO_v1.2.bps",
+  "target_file": "Yakouchuu_II_KO_v1.2.z64",
+  "real_hardware_verified": false
+}

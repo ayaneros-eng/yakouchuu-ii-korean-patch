@@ -1,0 +1,9 @@
+*.z64
+*.n64
+*.v64
+*.srm
+*.state
+*.sav
+*.log
+__pycache__/
+work/
