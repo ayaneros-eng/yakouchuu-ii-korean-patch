@@ -2,7 +2,7 @@
 """Create and self-verify a compact BPS1 patch for the Yakouchuu II ROM.
 
 The encoder intentionally uses only SourceRead, TargetRead and TargetCopy.
-Long zero runs in the expanded 64 MiB target are represented by a one-byte
+Long repeated runs in the expanded 64 MiB target are represented by a one-byte
 literal followed by an overlapping TargetCopy, keeping the patch compact.
 """
 
@@ -73,11 +73,10 @@ def equal_run(source: bytes, target: bytes, position: int) -> int:
 
 
 def zero_run(target: bytes, position: int) -> int:
-    end = target.find(b"\x01", position)  # fast path is not valid for arbitrary nonzero bytes
-    del end
     cursor = position
     limit = len(target)
-    while cursor < limit and target[cursor] == 0:
+    value = target[position]
+    while cursor < limit and target[cursor] == value:
         cursor += 1
     return cursor - position
 
@@ -105,12 +104,12 @@ def make_patch(source: bytes, target: bytes) -> tuple[bytes, Counter[str]]:
             position += same
             continue
 
-        zeros = zero_run(target, position) if target[position] == 0 else 0
+        zeros = zero_run(target, position)
         if zeros >= 16:
-            # Seed one literal zero at the current output position, then copy
+            # Seed one literal value at the current output position, then copy
             # from that byte with overlap to repeat it for the rest of the run.
             action(TARGET_READ, 1)
-            patch.append(0)
+            patch.append(target[position])
             stats["literal_bytes"] += 1
             anchor = position
             position += 1
@@ -126,7 +125,7 @@ def make_patch(source: bytes, target: bytes) -> tuple[bytes, Counter[str]]:
         while position < len(target):
             if position < len(source) and equal_run(source, target, position) >= 8:
                 break
-            if target[position] == 0 and zero_run(target, position) >= 16:
+            if zero_run(target, position) >= 16:
                 break
             position += 1
         literal = target[start:position]
