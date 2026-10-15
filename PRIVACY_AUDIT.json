@@ -1,22 +1,15 @@
 {
   "passed": true,
-  "scope": "All public files and BPS binary; ZIP members and metadata verified after packaging.",
-  "bps_metadata_bytes": 0,
+  "scope": "v1.3 distribution ZIP and its listed payload files",
+  "roms_included": false,
+  "personal_saves_included": false,
+  "raw_logs_included": false,
   "local_paths_found": 0,
-  "personal_emails_found": 0,
-  "private_usernames_found": 0,
-  "secrets_found": 0,
-  "excluded": [
-    "ROM images",
-    "save files",
-    "savestates",
-    "raw runtime logs",
-    "private handoff archive",
-    "emulator binaries"
-  ],
-  "git_identity": "GitHub noreply author and committer; verified after publication",
-  "public_screenshot_count": 5,
+  "private_emails_found": 0,
+  "credentials_found": 0,
   "screenshot_metadata_fields": 0,
-  "screenshot_pixels_unchanged": true,
-  "screenshot_visual_privacy_review": true
+  "screenshot_count": 5,
+  "zip_timestamps": "fixed; filesystem timestamps excluded",
+  "patch_metadata_bytes": 0,
+  "patcher_network_access": false
 }

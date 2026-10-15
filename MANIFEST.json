@@ -1,70 +1,96 @@
 {
-  ".gitattributes": {
-    "size": 8,
-    "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
-  },
-  ".gitignore": {
-    "size": 63,
-    "sha256": "434b1a39155b65f2573cb55181f12a9a81bcf1e5570d545b30252ec7942c5c63"
-  },
-  "PRIVACY_AUDIT.json": {
-    "size": 645,
-    "sha256": "e3d288d6b672f4b7d6bce567d6e2022416e509ad9b33ce224afd843d20a68eaf"
-  },
-  "QA_REPORT.md": {
-    "size": 2058,
-    "sha256": "2d90787e48d8ce117a416acfcce6503faa0335c79205590d59f5f48d86dd27c5"
-  },
-  "README.md": {
-    "size": 3162,
-    "sha256": "ca9ba582d904da0a22fc01c9989f708a90c03785d205387540753438a84f544b"
-  },
-  "release_manifest.json": {
-    "size": 486,
-    "sha256": "89480a0e6c4733d7c74925d64bc707a48ecad90ad48fac33a81c28aadfbe2119"
-  },
-  "RELEASE_NOTES.md": {
-    "size": 920,
-    "sha256": "0556c630b0483c1054cfb81d78cd35a5d1a2bc814c56ec6bfc0fc183523ab6e5"
-  },
-  "reproduce/.gitkeep": {
-    "size": 1,
-    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-  },
-  "reproduce/apply_verified_patch.py": {
-    "size": 1122,
-    "sha256": "ada1ab177e69c0deb8c18e0656472cf9140dc9e8c261866364f45dbca18364a9"
-  },
-  "reproduce/bps_codec.py": {
-    "size": 8333,
-    "sha256": "09e5ec31fb7b34cbd476781fbcea29c42924f153a3a8eae63f64aff754fb16fc"
-  },
-  "screenshots/01-name-input.png": {
-    "size": 386089,
-    "sha256": "a8d2120108f7df828902252557a60ef68557c6d2213a18448825f5445adb45ae"
-  },
-  "screenshots/02-story.png": {
-    "size": 372733,
-    "sha256": "2dddc57d238b30e3a8b22e24ff2b94bacc6c670847761c1af6a39200cefcec2c"
-  },
-  "screenshots/03-three-choices.png": {
-    "size": 374334,
-    "sha256": "8592b483abe4970de27e8c0a5e935271a98353e2b8fb9bd5d4ab02f74d0dcc6d"
-  },
-  "screenshots/04-four-choices.png": {
-    "size": 307016,
-    "sha256": "42fb45fe66fdb2489584f7aeddd6fb7d842c35e779cfb12042a627e694e13602"
-  },
-  "screenshots/05-save-menu.png": {
-    "size": 413619,
-    "sha256": "bab025dbd2a80da060324bbb7dd9968746f6b31b7f23fbdf38026b404e4fb9e8"
-  },
-  "screenshots/README.md": {
-    "size": 233,
-    "sha256": "e19bdae944484cb92d120bb3571ab92d382889d7ca2cad2b6ddbc8078835b9cf"
-  },
-  "Yakouchuu_II_KO_v1.2.bps": {
-    "size": 1065933,
-    "sha256": "234bab519a16a7eff64a35ba0bbca9ff30ae01a50d77f9fd92d50e57c6f9d860"
-  }
+  "version": "1.3",
+  "scope": "distribution payload; MANIFEST.json and SHA256SUMS.txt are integrity metadata",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "size": 69,
+      "sha256": "dc7e3c880d61ca650645f3573fe0258bd350dbd237d77567e85b9f6e2206aba4"
+    },
+    {
+      "path": "PRIVACY_AUDIT.json",
+      "size": 444,
+      "sha256": "d420bcb83a52a8a83a7e75dc6345260c4e65c92360beb8a51c81386c8c9a82bb"
+    },
+    {
+      "path": "QA_REPORT.md",
+      "size": 1573,
+      "sha256": "69514c05e0d0c7c7e50db1358a547246e4e97f318335c7a2d88fcb2b365035cc"
+    },
+    {
+      "path": "README.md",
+      "size": 3892,
+      "sha256": "2e7fcb7fcfb6991dea10dee87be4dcce6b1309430bfed8c8a0561b750dacb993"
+    },
+    {
+      "path": "release_manifest.json",
+      "size": 651,
+      "sha256": "b008481c22ac9ef3d6f17b2d3611e3b67ae34edd6c97a779eb3ee7360e43d81d"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "size": 859,
+      "sha256": "ff9dc2bf50cd8280b6489ba0ccdee6321b7d7dd2e37b05ad9cbb705f022667b5"
+    },
+    {
+      "path": "reproduce/apply_verified_patch.py",
+      "size": 2272,
+      "sha256": "55ac431c8843e21773690e19c2a682cfaac4121d87006abf263674c75e294d76"
+    },
+    {
+      "path": "reproduce/bps_codec.py",
+      "size": 8221,
+      "sha256": "c7c605604022b60c74ed237d0ce163acbd2baa30f3cf644d3f8c4299f684c117"
+    },
+    {
+      "path": "screenshots/01-name-input.png",
+      "size": 352308,
+      "sha256": "8c71b86208f5efb2dbc65daf59177f47e288ec290ba5873f42037e1c4490c8be"
+    },
+    {
+      "path": "screenshots/02-story.png",
+      "size": 356735,
+      "sha256": "b816f83be22e00960a488a3d1ceea62a490f65e01017a29620ef3d51d90cc71b"
+    },
+    {
+      "path": "screenshots/03-three-choices.png",
+      "size": 364674,
+      "sha256": "e77d2046a7fe92b4cd7a5eee6bb8a2af33456a6e63d49a826750b96d8c18888d"
+    },
+    {
+      "path": "screenshots/04-settings.png",
+      "size": 408750,
+      "sha256": "38dbb231e56eaa4076ced9330c62bb945ec38bf2dd3e26020bbf355d071a5c25"
+    },
+    {
+      "path": "screenshots/05-save-menu.png",
+      "size": 402884,
+      "sha256": "8955f7ee1e0820cf3216afcf6997b073179fdc3965dc554198a5b53f4245671e"
+    },
+    {
+      "path": "screenshots/README.md",
+      "size": 146,
+      "sha256": "f6252a7f1d03b2ba7e06e89fe0f55efd7a27169557911430f24ecf321dd08ae3"
+    },
+    {
+      "path": "source/EasyPatcher.cs",
+      "size": 9595,
+      "sha256": "b33f8d104346d237e391b1007dd9bcaa519fbbd099eeaa8b1a6a4c81d711cca7"
+    },
+    {
+      "path": "Yakouchuu_II_KO_v1.3.bps",
+      "size": 2247527,
+      "sha256": "6236d48fcfb304bcaec0fb90821f53eed2404bc4f49e921605771eadb8860afd"
+    },
+    {
+      "path": "한글패치 적용.exe",
+      "size": 14848,
+      "sha256": "708eed48afb03a4f71aac14bb23e3ec9639b4c0bf67b1836661aa07edaea2255"
+    }
+  ]
 }
